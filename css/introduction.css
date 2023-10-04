@@ -10,6 +10,7 @@
   justify-content: space-between;
   gap: 50px;
   background: var(--color-1);
+  margin-bottom: 130px;
 }
 
 .main-infos-item {
