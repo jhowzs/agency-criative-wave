@@ -8,10 +8,19 @@
 
 body {
   font-family: "Montserrat", Arial, sans-serif;
+  background-image: url(../../img/image-principal-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 950px;
+  height: 2000px;
 }
 
 img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.container {
+  max-width: 1700px;
+  margin: 0 auto;
 }
