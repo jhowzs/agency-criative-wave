@@ -1,0 +1,30 @@
+.brief-content-bg {
+  background: #1e1e1e;
+}
+
+.brief-content {
+  padding: 80px 100px 160px 100px;
+}
+
+.brief-text p {
+  color: var(--color-0);
+  font-size: 4rem;
+  font-weight: bold;
+  max-width: 32ch;
+  margin-bottom: 30px;
+}
+
+.brief-people {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.brief-content img {
+  display: inline-block;
+}
+
+.brief-content span {
+  color: var(--color-1);
+  font-weight: 400;
+}
