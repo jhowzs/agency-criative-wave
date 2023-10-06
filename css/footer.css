@@ -1,0 +1,36 @@
+.footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 20px 10px 20px;
+}
+
+.footer-info p {
+  color: var(--color-text);
+}
+
+.footer-info img {
+  width: 150px;
+  height: 87px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-links ul li {
+  color: var(--color-text);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footer span {
+  display: inline-block;
+  text-align: center;
+  grid-column: 1 / -1;
+  grid-row: 2;
+  margin-top: 80px;
+  font-size: 0.875rem;
+}
